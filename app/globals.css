@@ -132,6 +132,23 @@
   background: #fafaf0;
 }
 
+/* Add these to your globals.css if missing */
+.perspective {
+  perspective: 1000px;
+}
+
+.transform-style {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
   
   .stars-bg {
     position: absolute;
